@@ -32,6 +32,7 @@ public class Menu extends BasicGameState {
      * @param sbg
      * @throws SlickException
      */
+    @Override
     public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
         btn_newGame = new ImageButton("newGame");
         btn_options = new ImageButton("options");
@@ -46,6 +47,7 @@ public class Menu extends BasicGameState {
      * @param g
      * @throws SlickException
      */
+    @Override
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
         //X Positions
         int posX_btn = 170;
@@ -74,11 +76,12 @@ public class Menu extends BasicGameState {
      * @throws SlickException 
      *
      */
+    @Override
     public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
         //newGame Button
         btn_newGame.update(gc.getWidth(), gc.getHeight());
         if(btn_newGame.isClicked(gc.getWidth(), gc.getHeight())) {
-            sbg.enterState(1);
+            sbg.enterState(2);
         }
         //Options Button
         btn_options.update(gc.getWidth(), gc.getHeight());
@@ -101,6 +104,7 @@ public class Menu extends BasicGameState {
      *
      * @return
      */
+    @Override
     public int getID() {
         return 0;
     }

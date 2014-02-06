@@ -17,6 +17,14 @@ public class ImageRikiTank extends Image {
     
     /**
      *
+     * @throws SlickException
+     */
+    public ImageRikiTank() throws SlickException {
+        super("resources/images/null.png");
+    }
+    
+    /**
+     *
      * @param name
      * @throws SlickException
      */
