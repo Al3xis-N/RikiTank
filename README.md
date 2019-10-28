@@ -13,6 +13,6 @@ RikiTank is a 2D video game where the player controls a tank. Survive as long as
 
 ## Authors
 
-* **Thibault Hazelart** - *Programming*
-* **Alexandre Debusschère** - *Programming*
-* **Alexis Normand** - *2D artist, Programming*
+* **Thibault Hazelart** - *Programing*
+* **Alexandre Debusschère** - *Programing*
+* **Alexis Normand** - *2D artist, Programing*
