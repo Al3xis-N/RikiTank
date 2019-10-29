@@ -8,7 +8,7 @@ RikiTank is a 2D video game where the player controls a tank. Survive as long as
 
 ## Built With
 
-* [Löve](https://love2d.org/) - 2D Game engine
+* [Löve](https://love2d.org/) - 2D Game engine (v. 0.8.0)
 * [Photoshop](https://www.adobe.com/products/photoshop) - Raster graphics editor
 
 ## Authors
